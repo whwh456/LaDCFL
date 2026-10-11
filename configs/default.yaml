@@ -1,0 +1,25 @@
+dataset:
+  name: PeMSD7
+  clients: 20
+
+model:
+  name: STGCN
+  input_length: 12
+  output_length: 1
+
+federated:
+  rounds: 50
+  clusters: 5
+  local_epochs: 2
+  lr: 0.001
+
+latency:
+  computation_scale: 1.0
+  bandwidth_scale: 1.0
+
+fimoda:
+  lambda: 0.5
+  E_min: 1
+  E_max: 5
+  H_min: 1
+  H_max: 5
