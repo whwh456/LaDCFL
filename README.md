@@ -10,10 +10,6 @@ Implemented modules:
 - latency heterogeneity simulation
 - ablation/sensitivity experiment interfaces
 
-Important:
-The exact reported numerical results require the original datasets,
-prediction backbones, and experimental hyperparameters used by the authors.
-This repository provides the reproducible implementation framework.
 
 ## Installation
 
